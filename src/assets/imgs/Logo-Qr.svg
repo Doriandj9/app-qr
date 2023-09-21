@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="728" viewBox="0 0 1024 728">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 72px;
+        fill: #34b298;
+        font-family: "Colonna MT";
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 60px;
+        fill: #35495d;
+      }
+
+      .cls-2 {
+        font-family: "Acumin Variable Concept";
+      }
+
+      .cls-3 {
+        font-family: "Baskerville Old Face";
+      }
+    </style>
+  </defs>
+  <text id="D" class="cls-1" transform="matrix(19.049, 0, 0, 19.049, 65.008, 716.412)">D</text>
+  <text id="Código" class="cls-2" transform="matrix(1.961, 0, 0, 1.961, 365.699, 326.82)">Código</text>
+  <text id="Qr" class="cls-3" transform="matrix(1.961, 0, 0, 1.961, 481.392, 499.38)">Qr</text>
+</svg>

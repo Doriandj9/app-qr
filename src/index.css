@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'score';
+  src: url('./assets/fonts/ChaumontScript-Regular.otf') format('.oft');
+}
+
+:root {
+  font-family: monospace, 'score', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body{
+  font-family: monospace, 'score', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .button-send{
+    @apply px-4 py-2 font-semibold rounded-lg
+    bg-primary text-white transition-all
+    duration-300 
+    hover:bg-primary/75;    
+  }
+  .button-click{
+    @apply animate-ping;
+    animation-iteration-count: 1;
+  }
+  .button-disabled{
+    @apply opacity-50  hover:bg-primary; 
+  }
+  .list-active {
+    @apply bg-primary text-white border-2 border-primary
+    flex justify-center items-center
+    flex-col gap-2
+    hover:bg-primary
+    hover:text-white
+    duration-500 transition-colors
+    button-list
+    rounded-lg  w-[4.5rem];
+
+  }
+  .list-active > span{
+    @apply border-white;
+  }
+
+  .button-list:hover > span:last-child{
+    border-color: white;
+  }
+}
