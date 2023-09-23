@@ -657,6 +657,11 @@ video {
   top: 50%;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1147,6 +1152,10 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 .ease-in-out {
